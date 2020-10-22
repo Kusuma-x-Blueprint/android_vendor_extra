@@ -43,6 +43,13 @@ PRODUCT_PACKAGES += \
 
 $(call inherit-product,vendor/extra/fonts/fonts.mk)
 
+# Sign with own key
+ifneq ($(OWN_KEYS_DIR),)
+$(shell ln -sf $(OWN_KEYS_DIR) user-keys)
+PRODUCT_DEFAULT_DEV_CERTIFICATE := user-keys/releasekey
+PRODUCT_OTA_PUBLIC_KEYS := user-keys/releasekey
+endif
+
 # Updater URI and changelog
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     lineage.updater.uri=https://raw.githubusercontent.com/Kusuma-x-Blueprint/OTA/lineage-20.0/$(LINEAGE_BUILD).json
