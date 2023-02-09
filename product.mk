@@ -43,6 +43,10 @@ PRODUCT_PACKAGES += \
 
 $(call inherit-product,vendor/extra/fonts/fonts.mk)
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworksOverlayPIHooks
+
 # Remove unwanted pacakges
 PRODUCT_PACKAGES += \
     RemovePackages
