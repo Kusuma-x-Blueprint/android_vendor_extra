@@ -46,7 +46,8 @@ $(call inherit-product,vendor/extra/fonts/fonts.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CromiteOverlayResources
+    CromiteOverlayResources \
+    FrameworksOverlayExtra
 
 # Remove unwanted pacakges
 PRODUCT_PACKAGES += \
