@@ -16,6 +16,9 @@
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
+# Audio
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Cromite
 PRODUCT_PACKAGES += \
     Cromite
