@@ -37,3 +37,9 @@ PRODUCT_PACKAGES += \
     FontNotoSansOverlay
 
 $(call inherit-product,vendor/extra/fonts/fonts.mk)
+
+# Updater URI and changelog
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/Kusuma-x-Blueprint/OTA/lineage-20.0/$(LINEAGE_BUILD).json
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/extra/overlay/changelog/$(LINEAGE_BUILD)
