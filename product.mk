@@ -15,3 +15,11 @@
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
+
+# Fonts
+PRODUCT_PACKAGES += \
+    FontGoogleSansOverlay \
+    FontInterOverlay \
+    FontNotoSansOverlay
+
+$(call inherit-product,vendor/extra/fonts/fonts.mk)
