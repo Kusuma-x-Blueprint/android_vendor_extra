@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Project Lineage Remix Open Source
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+<string name="ad_block_settings_title">Adblock Plus</string>
+<string name="adblock_help">Kunjungi laman bantuan</string>
+<string name="add_script">Tambah skrip</string>
+<string name="allow_custom_tab_intents_summary">Izinkan aplikasi untuk membuka kustom tab intents, layaknya webview.</string>
+<string name="allow_custom_tab_intents_title">Izinkan kustom tab intents</string>
+<string name="always_incognito_summary">Buka tautan dalam tab samaran ketika Anda mengeklik tab baru atau sebuah tautan</string>
+<string name="always_incognito_title">Selalu buka tautan dalam mode samaran</string>
+<string name="ask_to_install">"Apakah Anda ingin menginstal skrip pengguna dari lokasi ini?
+
+%s
+
+CATATAN: hanya instal skrip pengguna yang terverifikasi aman menurut Anda, skrip pengguna memungkinkan pencurian identitas dan data Anda."</string>
+<string name="auto_updater_check">Cek pembaharuan Cromite secara otomatis</string>
+<string name="autoplay_title">Muat otomatis</string>
+<string name="bromite_fre_footer_privacy_policy">"&lt;PRIVACY_LINK1>Pembaharuan otomatis filter pemblokir iklan&lt;/PRIVACY_LINK1> adalah bagian dari &lt;PRIVACY_LINK2>pernyataan Privasi GitHub&lt;/PRIVACY_LINK2>, tidak dapat dinonaktifkan.
+Sedangkan, kotak centang berikut mengatur  &lt;PRIVACY_LINK3>pembaharuan otomatis aplikasi&lt;/PRIVACY_LINK3> yang termasuk ke dalam  &lt;PRIVACY_LINK4>pernyataan Privasi GitHub&lt;/PRIVACY_LINK4> juga."</string>
+<string name="clear_search_history_non_google_dse_unknown">Lihat petunjuk mesin telusur untuk menghapus histori penelusuran Anda, jika memungkinkan.</string>
+<string name="close_tabs_on_exit_summary">Jangan simpan tab diantara sesi penjelajahan</string>
+<string name="close_tabs_on_exit_title">Tutup semua tab yang terbuka saat keluar</string>
+<string name="contextmenu_open_in_new_tab_group">Buka dalam tab baru di grup</string>
+<string name="custom_desktop_ua_text">Agen pengguna situs desktop</string>
+<string name="custom_ua_flag_off">Gunakan agen pengguna bawaan</string>
+<string name="custom_ua_flag_on">Gunakan agen pengguna kustom</string>
+<string name="custom_ua_placeholder">Masukkan agen pengguna yang valid</string>
+<string name="custom_ua_text">Agen pengguna situs seluler</string>
+<string name="darken_websites">Terapkan tema gelap ke situs, jika memungkinkan.</string>
+<string name="desktop_mode_viewportmeta_checkbox">Aktifkan pemrosesan viewport meta tag kepada situs desktop</string>
+<string name="do_not_track_description">"Jika “Jangan Lacak” diaktifkan, permintaan akan disertakan bersama trafik penjelajahan Anda. Dampaknya tergantung kepada apakah situs web menanggapi permintaan itu, dan bagaimana permintaan itu diinterpretasikan.
+
+Misalnya, beberapa situs web mungkin menanggapi permintaan ini dengan menayangkan iklan yang tidak berdasarkan kepada data kunjungan Anda ke situs web lainnya. Banyak situs web masih akan mengumpulkan dan menggunakan data penjelajahan Anda — misalnya, untuk meningkatkan keamanan, menyediakan konten, iklan, dan saran, serta untuk membuat statistik pelaporan."</string>
+<string name="enable_accessibility_summary">Komunikasikan semua aktivitas pengguna ketika berjelajah kepada penyedia aksesibilitas</string>
+<string name="enable_accessibility_title">Aktifkan layanan aksesibilitas</string>
+<string name="enable_android_autofill">Aktifkan isi otomatis bawaan Android</string>
+<string name="enable_android_autofill_incognito">Aktifkan isi otomatis bawaan Android dalam mode samaran</string>
+<string name="enable_referrers_title">Aktifkan header HTTP Referrer</string>
+<string name="export_bookmarks">Ekspor</string>
+<string name="export_bookmarks_alert_title">Mengekspor bookmark ke dalam berkas</string>
+<string name="fast_checkout_home_sheet_expand_icon_autofill_profile_description">Ubah ke alamat pengiriman lain dalam item menu ini.</string>
+<string name="fast_checkout_home_sheet_expand_icon_credit_card_description">Ubah ke metode pembayaran lain dalam item menu ini.</string>
+<string name="force_tablet_ui_summary">Buka Cromite dalam mode tablet</string>
+<string name="force_tablet_ui_title">Aktifkan mode tablet secara paksa</string>
+<string name="fragment_adblock_more_options_custom_filter_lists_summary">Tambahkan langganan daftar filter kustom Adblock Plus</string>
+<string name="fragment_adblock_more_options_custom_filter_lists_title">Daftar filter kustom</string>
+<string name="fragment_adblock_more_options_custom_filters_summary">Tambah filter kustom dan iklan yang ditandai</string>
+<string name="fragment_adblock_more_options_custom_filters_title">Filter kustom</string>
+<string name="fragment_adblock_settings_aa_enabled_summary">Kami ingin mendorong agar semua situs web menggunakan metode periklanan yang bersifat sederhana dan nonintrusif. Oleh karena itu, kami menetapkan pedoman yang ketat dalam mengidentifikasi Iklan yang Bisa Diterima, yang ditunjukkan dalam pengaturan bawaan kami. Jika Anda ingin menjelajah internet tanpa melihat iklan apa pun, Anda bisa menonaktifkan opsi ini kapan saja.</string>
+<string name="fragment_adblock_settings_enabled_summary">Izinkan pemblokiran iklan di situs web dalam aplikasi ini</string>
+<string name="fragment_adblock_settings_more_options_title">Opsi pemblokir lainnya</string>
+<string name="history_expire_days_keep_forever">Selamanya</string>
+<string name="history_expire_days_no_history">0</string>
+<string name="history_expire_days_threshold_summary">Jumlah hari dalam menyimpan histori navigasi</string>
+<string name="history_expire_days_threshold_title">Rentang hari histori kedaluwarsa</string>
+<string name="images_permission_title">Gambar</string>
+<string name="import_bookmarks">Impor</string>
+<string name="incognito_history_enabled_summary">Simpan histori meskipun dalam mode samaran</string>
+<string name="incognito_history_enabled_title">Aktifkan histori</string>
+<string name="incognito_save_site_setting_enabled_summary">Ingat perubahan setelan situs dalam mode samaran</string>
+<string name="incognito_save_site_setting_enabled_title">Ingat setelan situs</string>
+<string name="incognito_settings_summary">Setelan navigasi mode samaran</string>
+<string name="iph_tab_groups_tap_to_see_another_tab_accessibility_text">Beralih ke tab lain dalam grup tab Anda di dekat bagian bawah layar</string>
+<string name="menu_bookmark_all_tabs">Bookmark semua tab</string>
+<string name="move_toolbar_bottom_summary">Pindahkan bilah alamat ke bawah untuk memudahkan navigasi</string>
+<string name="move_toolbar_bottom_title">Toolbar di bawah</string>
+<string name="notification_permission_rationale_dialog_message">Anda dapat dengan mudah mengelola kontrol media, mode samaran, download, dan lainnya</string>
+<string name="notification_permission_rationale_dialog_title">Notifikasi Chromium membuat semuanya menjadi lebih mudah</string>
+<string name="open_external_links_incognito_summary">Paksa semua tautan eksternal dibuka dalam mode samaran</string>
+<string name="open_external_links_incognito_title">Buka tautan eksternal dalam mode samaran</string>
+<string name="option_desktop_flag">Perubahan ini hanya untuk situs desktop yang ada di menu hamburger</string>
+<string name="option_desktop_flag_off">Diterapkan untuk tab ini saja</string>
+<string name="option_desktop_flag_on">Diterapkan untuk semua tab (mode konsisten)</string>
+<string name="option_userscript_flag">Aktifkan skrip pengguna</string>
+<string name="option_userscript_flag_off">Nonaktif</string>
+<string name="option_userscript_flag_on">Aktif</string>
+<string name="options_adblock_edit_label">URL filter</string>
+<string name="options_adblock_edit_title">Edit URL filter</string>
+<string name="options_adblock_title">Filter Pemblokir Iklan kustom Bromite</string>
+<string name="options_homepage_chrome_homepage">Halaman beranda Chromium</string>
+<string name="options_ntp_is_homepage_label">Gunakan sebagai tab baru</string>
+<string name="password_check_credential_row_reason_phished">Dimasukkan ke dalam situs penipuan</string>
+<string name="payment_apps_usage_message">Di beberapa situs, Anda dapat membayar dengan aplikasi pembayaran yang didukung di atas dalam perangkat Anda.</string>
+<string name="prefs_adblock">Filter Pemblokir Iklan kustom Bromite</string>
+<string name="prefs_useragent_settings">Agen pengguna</string>
+<string name="prefs_userscripts_settings">Skrip pengguna</string>
+<string name="proxy_title">Konfigurasi proxy</string>
+<string name="scripts_list_description">Dukungan eksperimental untuk skrip pengguna kustom</string>
+<string name="scripts_view_source">Lihat sumber</string>
+<string name="select_all_bookmarks">Pilih semua</string>
+<string name="services_category_title">Layanan lainnya</string>
+<string name="session_permissions_forever">Selamanya</string>
+<string name="settings_https_first_mode_summary">Meningkatkan navigasi ke HTTPS dan memperingatkan Anda sebelum memuat situs yang tidak mendukungnya</string>
+<string name="sharing_long_screenshot_reached_bottom">Tidak dapat lebih rendah lagi. Coba mulai dari bagian yang lebih bawah dalam halaman.</string>
+<string name="sharing_long_screenshot_reached_top">Tidak dapat lebih tinggi lagi. Coba mulai dari bagian yang lebih atas dalam halaman.</string>
+<string name="site_settings_type_viewport">Proteksi ukuran viewport</string>
+<string name="site_settings_type_viewport_mid_sentence">Proteksi ukuran viewport</string>
+<string name="site_settings_type_webgl">WebGL</string>
+<string name="site_settings_type_webgl_mid_sentence">WebGL</string>
+<string name="storage_management_activity_label">Penyimpanan %1$s</string>
+<string name="timezone_override_permission_title">Timpa zona waktu</string>
+<string name="ui_relaunch_notice">Perubahan Anda akan diterapkan setelah Anda membuka ulang Cromite.</string>
+<string name="useragent_settings_title">Agen pengguna</string>
+<string name="view_source">Lihat sumber</string>
+<string name="viewport_permission_title">Proteksi ukuran viewport</string>
+<string name="webgl_permission_title">WebGL</string>
+<string name="website_settings_add_site_description_autoplay">Izinkan situs untuk memuat video bisu otomatis.</string>
+<string name="website_settings_add_site_description_background_sync">Izinkan sinkronisasi latar belakang untuk situs tertentu.</string>
+<string name="website_settings_add_site_description_images">Izinkan memuat gambar untuk situs tertentu.</string>
+<string name="website_settings_add_site_description_javascript_jit_allow">Izinkan JIT untuk situs tertentu.</string>
+<string name="website_settings_add_site_description_javascript_jit_block">Blokir JIT untuk situs tertentu.</string>
+<string name="website_settings_add_site_description_sound_block">Memblokir suara untuk situs tertentu.</string>
+<string name="website_settings_category_ads_blocked">Blokir iklan sesuai dengan filter yang diterapkan</string>
+<string name="website_settings_category_autoplay_allowed">Izinkan situs untuk memutar video bisu secara otomatis (direkomendasikan)</string>
+<string name="website_settings_category_desktop_site_allowed">Minta situs desktop</string>
+<string name="website_settings_category_desktop_site_blocked">Minta situs seluler (disarankan)</string>
+<string name="website_settings_category_federated_identity_allowed">Mengizinkan situs menampilkan perintah login dari layanan identitas</string>
+<string name="website_settings_category_federated_identity_blocked">Blokir perintah login dari layanan identitas</string>
+<string name="website_settings_category_javascript_jit_allowed">Izinkan situs untuk menggunakan kompilasi just-in-time, lebih cepat tetapi rentan terhadap serangan keamanan.</string>
+<string name="website_settings_category_javascript_jit_blocked">Blokir situs untuk menggunakan kompilasi just-in-time, hanya gunakan JavaScript yang terinterprestasi, kurang cepat tetapi tidak rentan terhadap serangan keamanan.</string>
+<string name="website_settings_category_sound_blocked">Blokir situs agar tidak memuat suara</string>
+<string name="website_settings_category_timezone_override_allowed">Zona waktu sistem</string>
+<string name="website_settings_category_timezone_override_allowed_text">Diblokir (menggunakan zona waktu sistem)</string>
+<string name="website_settings_category_timezone_override_custom">Zona waktu kustom</string>
+<string name="website_settings_category_timezone_override_custom_hint">Tentukan zona waktu kustom (bawaan UTC)</string>
+<string name="website_settings_category_timezone_override_random">Acak (untuk setiap laman)</string>
+<string name="website_settings_category_viewport_disabled">Diblokir</string>
+<string name="website_settings_category_viewport_enabled">Diizinkan</string>
+<string name="website_settings_category_webgl_disabled">Diblokir</string>
+<string name="website_settings_category_webgl_enabled">Diizinkan</string>
+<string name="website_settings_category_webrtc_disabled">Diblokir</string>
+<string name="website_settings_category_webrtc_enabled">Diizinkan</string>
+<string name="website_settings_select_button">Pilih zona waktu...</string>
+<string name="website_settings_select_dialog_title">Pilih zona waktu</string>
+<string name="website_settings_timeoverride_info">Timpa zona waktu dengan zona waktu kustom atau sistem</string>
+<string name="adblock_settings_title">Adblock Plus</string>
+<string name="fragment_adblock_settings_filter_lists_summary">Tambahkan filter region dari situs yang sering Anda kunjungi ketika menjelajah</string>
+<string name="adblock_settings_open_snippets_url_text">Buka ikhtisar potongan Adblock Plus</string>
+<string name="adblock_settings_open_repo_url_text">Buka repositori daftar filter anti-pengelakan Adblock Plus</string>
+<string name="fragment_adblock_more_options_custom_filter_lists_title_count">Daftar filter kustom (%s dipilih)</string>
+<string name="fragment_adblock_more_options_custom_filters_title_count">Filter kustom (%s dipilih)</string>
+<string name="fragment_adblock_settings_start_update">Cek pembaharuan daftar filter</string>
+<string name="prefs_accessibility">Aksesibilitas</string>
+<string name="fragment_adblock_settings_filter_lists_title_count">Daftar filter (%s dipilih)</string>
+<string name="fragment_adblock_settings_filter_lists_title">Daftar filter</string>
+<string name="adblock_settings_privileged_filters_enabled">Aktifkan anti-pengelakan dan potongan</string>
+<string name="adblock_settings_privileged_filters_enabled_summary">"Potongan adalah sebagian kode JavaScript yang dimasukkan oleh Adblock Plus dan dijalankan dalam situs web tertentu dengan bertujuan untuk melawan iklan tingkat lanjut yang menghindari pemblokiran biasa.
+Fungsionalitas ini HANYA diperbolehkan untuk daftar
+https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+yang diaktifkan oleh pengaturan ini."</string>
+<string name="adblock_settings_open_repo_url_summary">Buka https://github.com/abp-filters/abp-filters-anti-cv dalam browser</string>
+<string name="adblock_settings_open_snippets_url_summary">Buka https://developers.eyeo.com/snippets/snippets-overview dalam browser</string>
+<string name="fragment_adblock_settings_allowed_domains_summary">Dukung situs favorit Anda dengan menambahkannya ke daftar ini. Anda mungkin melihat iklan di situs tersebut.</string>
+<string name="fragment_adblock_settings_allowed_domains_title">Daftar pengecualian</string>
+
+</resources>

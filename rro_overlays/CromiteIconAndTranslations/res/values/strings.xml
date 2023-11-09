@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Project Lineage Remix Open Source
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+<string name="bromite_fre_footer_privacy_policy">"&lt;PRIVACY_LINK1>Automatic ad block filters updates&lt;/PRIVACY_LINK1> are subject to the &lt;PRIVACY_LINK2>GitHub Privacy statement&lt;/PRIVACY_LINK2>; they cannot be disabled.
+The following checkbox controls instead &lt;PRIVACY_LINK3>automatic app updates&lt;/PRIVACY_LINK3> which are also subject to the &lt;PRIVACY_LINK4>GitHub Privacy statement&lt;/PRIVACY_LINK4>."</string>
+<string name="custom_desktop_ua_text">Desktop site user agent</string>
+<string name="custom_ua_text">Mobile site user agent</string>
+<string name="darken_websites">Apply dark theme to sites, when possible.</string>
+<string name="desktop_mode_viewportmeta_checkbox">Enable processing of the viewport meta tag also for desktop site</string>
+<string name="enable_accessibility_summary">Activates or deactivates the communication of all user activities in UI to the accessibility provider</string>
+<string name="force_tablet_ui_title">Force tablet mode</string>
+<string name="fragment_adblock_more_options_custom_filter_lists_summary">Subscribe to custom Ablock Plus filter lists</string>
+<string name="fragment_adblock_more_options_custom_filter_lists_title">Custom filter lists</string>
+<string name="fragment_adblock_more_options_custom_filters_summary">Add custom filters and marked ads</string>
+<string name="fragment_adblock_more_options_custom_filters_title">Custom filters</string>
+<string name="fragment_adblock_settings_aa_enabled_summary">"Acceptable ads are non-annoying ads that comply with a strict ad standard. They help generate revenue for content creators and do not interfere with the content you are viewing. "</string>
+<string name="history_expire_days_no_history">0</string>
+<string name="move_toolbar_bottom_summary">Move address bar to the bottom for easier navigation</string>
+<string name="move_toolbar_bottom_title">Bottom toolbar</string>
+<string name="option_desktop_flag">Current behaviour for desktop site toggle in hamburger menu</string>
+<string name="option_userscript_flag">Activate user scripts</string>
+<string name="option_userscript_flag_off">Off</string>
+<string name="option_userscript_flag_on">On</string>
+<string name="options_adblock_title">Bromite Custom Ad Block filters</string>
+<string name="prefs_adblock">Bromite Custom Ad Block filters</string>
+<string name="prefs_useragent_settings">User agent</string>
+<string name="prefs_userscripts_settings">User scripts</string>
+<string name="scripts_list_description">Experimental support for custom user scripts</string>
+<string name="site_settings_type_viewport">Viewport size protection</string>
+<string name="site_settings_type_viewport_mid_sentence">Viewport size protection</string>
+<string name="site_settings_type_webgl">WebGL</string>
+<string name="site_settings_type_webgl_mid_sentence">WebGL</string>
+<string name="useragent_settings_title">User agent</string>
+<string name="viewport_permission_title">Viewport size protection</string>
+<string name="webgl_permission_title">WebGL</string>
+<string name="website_settings_add_site_description_background_sync">Allow background sync for a specific site.</string>
+<string name="website_settings_add_site_description_images">Allow images on websites you specify while blocking them for the rest of the web.</string>
+<string name="website_settings_category_desktop_site_allowed">Request desktop site</string>
+<string name="website_settings_category_desktop_site_blocked">Request mobile site (recommended)</string>
+<string name="website_settings_category_javascript_jit_allowed">Allow sites to use just-in-time compilation, more performant but a constant source of security vulnerabilities.</string>
+<string name="website_settings_category_javascript_jit_blocked">Block sites from using just-in-time compilation, using only interpreted JavaScript, less performant but more secure against security vulnerabilities.</string>
+<string name="website_settings_category_viewport_disabled">Blocked</string>
+<string name="website_settings_category_viewport_enabled">Allowed</string>
+<string name="website_settings_category_webgl_disabled">Blocked</string>
+<string name="website_settings_category_webgl_enabled">Allowed</string>
+<string name="website_settings_category_webrtc_disabled">Blocked</string>
+<string name="website_settings_category_webrtc_enabled">Allowed</string>
+<string name="adblock_settings_title">Adblock Plus</string>
+<string name="fragment_adblock_settings_filter_lists_summary">Add the region filter in which you regularly browse websites in</string>
+<string name="adblock_settings_open_snippets_url_text">Open Adblock Plus snippets overview</string>
+<string name="adblock_settings_open_repo_url_text">Open Adblock Plus anti-circumvention filter list repository</string>
+<string name="fragment_adblock_more_options_custom_filter_lists_title_count">Custom filter lists (%s selected)</string>
+<string name="fragment_adblock_more_options_custom_filters_title_count">Custom filters (%s selected)</string>
+<string name="fragment_adblock_settings_start_update">Check filter lists update</string>
+<string name="prefs_accessibility">Accessibility</string>
+<string name="enable_accessibility_title">Enable accessibility service</string>
+<string name="force_tablet_ui_summary">Open Cromite in tablet mode</string>
+
+</resources>
