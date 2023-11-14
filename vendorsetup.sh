@@ -2,3 +2,6 @@
 
 # Build ID
 export TARGET_UNOFFICIAL_BUILD_ID=KUSUMA
+
+# Sign with own key
+export OWN_KEYS_DIR=~/.android-certs
