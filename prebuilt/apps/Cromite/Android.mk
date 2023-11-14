@@ -29,4 +29,9 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := arm64_ChromePublic.apk
 LOCAL_REPLACE_PREBUILT_APK_INSTALLED := $(LOCAL_PATH)/arm64_ChromePublic.apk
 
+LOCAL_MODULE_TARGET_ARCH := arm64
+LOCAL_PREBUILT_JNI_LIBS := \
+    lib/arm64-v8a/libchrome.so \
+    lib/arm64-v8a/libchrome_crashpad_handler.so
+
 include $(BUILD_PREBUILT)
