@@ -43,6 +43,10 @@ PRODUCT_PACKAGES += \
 
 $(call inherit-product,vendor/extra/fonts/fonts.mk)
 
+# Remove unwanted pacakges
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Sign with own key
 ifneq ($(OWN_KEYS_DIR),)
 $(shell ln -sf $(OWN_KEYS_DIR) user-keys)
