@@ -18,8 +18,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Cromite
 PRODUCT_PACKAGES += \
-    Cromite \
-    CromiteIconAndTranslations
+    Cromite
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= $(TARGET_SUPPORTS_64_BIT_APPS)
@@ -45,6 +44,7 @@ $(call inherit-product,vendor/extra/fonts/fonts.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CromiteOverlayResources \
     FrameworksOverlayPIHooks
 
 # Remove unwanted pacakges
