@@ -8,3 +8,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     vendor/extra/sepolicy/qcom/dynamic
 endif
 endif
+
+# Inherit private extra if exists
+-include vendor/extra-priv/BoardConfigExtraPriv.mk

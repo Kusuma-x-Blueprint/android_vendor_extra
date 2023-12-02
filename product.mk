@@ -63,3 +63,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     lineage.updater.uri=https://raw.githubusercontent.com/Kusuma-x-Blueprint/OTA/lineage-20.0/$(LINEAGE_BUILD).json
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/extra/overlay/changelog/$(LINEAGE_BUILD)
+
+# Inherit private extra if exists
+$(call inherit-product-if-exists, vendor/extra-priv/product.mk)
