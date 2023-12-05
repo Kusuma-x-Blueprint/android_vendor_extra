@@ -1,3 +1,6 @@
+# Extra version
+TARGET_SYSTEM_PROP += vendor/extra/properties/system.prop
+
 # SEPolicy
 ifeq ($(BOARD_USES_QCOM_HARDWARE), true)
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
