@@ -21,7 +21,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 
 # Cromite
 PRODUCT_PACKAGES += \
-    Cromite
+    CromitePrebuilt
 
 # Face Unlock
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
