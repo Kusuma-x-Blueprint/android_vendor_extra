@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
 
 $(call inherit-product,vendor/extra/fonts/fonts.mk)
 
+# Glimpse
+PRODUCT_PACKAGES += \
+    GlimpsePrebuilt
+
 # Overlays
 PRODUCT_PACKAGES += \
     CromiteOverlayResources \
