@@ -23,10 +23,6 @@ TARGET_EXCLUDES_AUDIOFX := true
 PRODUCT_PACKAGES += \
     CromitePrebuilt
 
-# ExtraPIHooks
-PRODUCT_PACKAGES += \
-    ExtraPIHooks
-
 # Face Unlock
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
