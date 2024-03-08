@@ -60,6 +60,9 @@ PRODUCT_PACKAGES += \
     CromiteOverlayResources \
     FrameworksOverlayExtra
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extra/overlay/static
+PRODUCT_PACKAGE_OVERLAYS += vendor/extra/overlay/static
+
 # Sign with own key
 ifneq ($(OWN_KEYS_DIR),)
 $(shell ln -sf $(OWN_KEYS_DIR) user-keys)
