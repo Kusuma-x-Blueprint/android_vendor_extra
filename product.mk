@@ -45,9 +45,12 @@ endif
 
 # Fonts
 PRODUCT_PACKAGES += \
+    FontFiraSansOverlay \
+    FontHarmonyOSSansOverlay \
     FontGoogleSansOverlay \
     FontInterOverlay \
-    FontNotoSansOverlay
+    FontNotoSansOverlay \
+    FontRedHatTextOverlay
 
 $(call inherit-product,vendor/extra/fonts/fonts.mk)
 
