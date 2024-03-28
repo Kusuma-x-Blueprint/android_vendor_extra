@@ -23,6 +23,10 @@ TARGET_EXCLUDES_AUDIOFX := true
 PRODUCT_PACKAGES += \
     CromitePrebuilt
 
+# Easter Egg
+PRODUCT_PACKAGES += \
+    ExtraEgg
+
 # Face Unlock
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
@@ -42,10 +46,13 @@ endif
 # Fonts
 PRODUCT_PACKAGES += \
     FontFiraSansOverlay \
-    FontHarmonyOSSansOverlay \
+    FontFredokaOverlay \
     FontGoogleSansOverlay \
+    FontHarmonyOSSansOverlay \
     FontInterOverlay \
+    FontManropeOverlay \
     FontNotoSansOverlay \
+    FontOPlusSansOverlay \
     FontRedHatTextOverlay
 
 $(call inherit-product,vendor/extra/fonts/fonts.mk)
